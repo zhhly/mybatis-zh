@@ -9,6 +9,7 @@ public class App {
         UserMapper mapper = mySqlSessionFactory.getMapper(UserMapper.class);
 
         // 查询
+        System.out.println(mapper.selectUserById(10));
         System.out.println(mapper.selectUserById(2));
         System.out.println(mapper.selectUserByNameAndAge("张三", 18));
 
