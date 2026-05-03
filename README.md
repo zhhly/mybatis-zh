@@ -1,4 +1,5 @@
 # mybatis-zh
+手动实现mybatis的动态代理。
 
 一个轻量级的 MyBatis-like ORM 框架，采用动态代理模式实现 Mapper 接口，支持基于方法名约定的 CRUD 操作。
 
